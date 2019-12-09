@@ -47,16 +47,11 @@
         </javaClientGenerator>
 
         <!--生成对应表及类名-->
-        <table tableName="batchtaskitemcontainer" domainObjectName="BatchTaskItemContainerPO" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
-            <!--驼峰命名-->
-            <property name="useActualColumnNames" value="true"/>
+        <table tableName="dept" domainObjectName="DeptPO" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
         </table>
 
-<!--        <table tableName="productcontrolconfigitem" domainObjectName="ProductControlConfigItemPO" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
-<!--            <property name="useActualColumnNames" value="true"/>-->
-<!--        </table>-->
-
-<!--        <table tableName="productsourcecode" domainObjectName="ProductSourceCodePO" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+<!--        <table tableName="student" domainObjectName="StudentPO" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+<!--            &lt;!&ndash;使用数据库中的字段名&ndash;&gt;-->
 <!--            <property name="useActualColumnNames" value="true"/>-->
 <!--        </table>-->
 
